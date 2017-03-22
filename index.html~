@@ -1,0 +1,130 @@
+<!DOCKTYPE html>
+<html>
+<head>
+	<title>Test Website</title>
+	<meta charset="UTF-8">
+<style>
+
+.main-content
+{
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	border-radius: 25px 25px 0px 0px;
+	width: 760px;
+	height: 500px;
+}
+
+.main-content h1
+{
+	background-color: gray;
+	padding: 5px 20px 5px 20px;
+	margin: 0px;
+	text-align: center;
+	width: 760px;
+	height: 30px;
+	border: black;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.inline
+{
+	display: inline-block;
+}
+
+.display-table
+{
+	display: table;
+}
+
+.box
+{
+	width: 380px;
+	height: 200px;
+	padding: 10px;
+	margin: 0px;
+}
+
+.red
+{
+	background-color: rgb(255,150,150);
+}
+
+.green
+{
+	background-color: rgb(150,255,150);	
+}
+
+.blue
+{
+	background-color: rgb(150,150,255);
+}
+
+.change:hover
+{
+	background-color: yellow;
+}
+
+.non-display 
+{
+	display: none;
+}
+
+.special:hover + .appear
+{
+	display: block;
+	background-image: url("image-a.png");
+	width: 300px;
+	height: 100px;
+	background-size: 100% 100%;
+}
+
+table
+{
+	border-spacing: 0px;
+}
+
+td
+{
+	vertical-align: top;
+	padding: 10px;
+}
+
+</style>
+</head>
+
+<body bgcolor="skyblue">
+	
+	<div class="main-content display-table">
+		<h1>
+		this is test
+		</h1>
+		<table>
+			<tr>
+				<td class="blue box">
+					box1 aaaaaaa aaaaa a lkjsdf lksdjflksjlfj sld lksjdlfj sldjkfls jlfsjdlkfj lsjdfl jkslkjdflskjdflk jsldkjf sklj lsjdf lskdjflskjd fl
+				</td>
+				<td class="green box">
+					box2
+				</td>
+			</tr>
+			<tr>
+				<td class="red box">
+					box3
+				</td>
+				<td class="blue box change">
+					box4
+				</td>
+			</tr>
+
+		</table>
+	</div>
+	<span class="special">
+		hover me!!!
+	</span>
+	<div class="non-display appear">
+		hello
+	</div>
+	
+</body>
+</html>

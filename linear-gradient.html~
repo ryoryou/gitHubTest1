@@ -1,0 +1,26 @@
+<!DOCKTYPE html>
+<html>
+
+<head>
+<style>
+
+.linear-gradient {
+	width: 200px;
+	height: 100px;
+	background: linear-gradient(
+					rgba(0,0,255,0.5),
+					rgba(255,0,0,1)
+					);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="linear-gradient">
+example
+</div>
+
+</body>
+</html>
