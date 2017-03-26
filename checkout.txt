@@ -1,3 +1,2 @@
 checktout1
-checkout2
-checkout3
+checkout2	
